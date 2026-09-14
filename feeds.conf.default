@@ -12,7 +12,7 @@ src-git packages https://git.openwrt.org/feed/packages.git^f91b06b3faff7ad3c8cbe
 src-git luci     https://git.openwrt.org/project/luci.git^e9ebca7598ce2f754b76267fd66bf2b85e6e4347
 src-git routing  https://git.openwrt.org/feed/routing.git^b2097c85bef85251364f59a6b2a3ed1f9f5c0c21
 src-git telephony https://git.openwrt.org/feed/telephony.git^2618106d5846a4a542fdf5809f0d3ed228ce439b
-src-git video    https://github.com/openwrt/video.git^094bf58da6682f895255a35a84349a79dab4bf95
+#src-git video    https://github.com/openwrt/video.git^094bf58da6682f895255a35a84349a79dab4bf95
 
 # ---- FanchmWrt 自有包 feed (fwx / fwxd / fullconenat / luci-theme-fanchmwrt) ----
 # 重要: fanchmwrt-packages 是独立仓, 经 API 核验**只有 main 分支** (无 fanchmwrt-25.12.4)
